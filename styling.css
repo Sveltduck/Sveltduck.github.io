@@ -1,0 +1,89 @@
+      /* General styles */
+
+      html {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        background-color: aliceblue;
+        
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        text-decoration: underline dashed; 
+        
+      }
+
+      .curious{
+
+        font-style: oblique;
+        font-weight: lighter;
+        text-decoration: underline wavy grey;
+      }
+
+      h2:hover,dt:hover{
+        text-decoration: underline dotted;
+       
+
+        
+
+      }
+
+      table{
+        background-color: beige;
+        
+      }
+
+      a{
+        color: navy;
+        text-decoration: underline wavy grey;
+
+
+
+      }
+
+      ul,ol,dl,p {
+        font-size: 1.5rem;
+      }
+     img{
+      max-width: 100px;
+      max-height: 200px;
+     }
+
+      li, p {
+        line-height: 2;
+      }
+
+
+      /* Unordered list styles */
+
+      ul {
+        padding-left: 2rem;
+        list-style-type: none;
+      }
+
+      ul li {
+        padding-left: 2rem;
+        background-image: url(star.svg);
+        background-position: 0 0;
+        background-size: 1.6rem 1.6rem;
+        background-repeat: no-repeat;
+      }
+
+      /* Ordered list styles */
+
+      ol {
+        list-style-type: upper-roman;
+      }
+
+      /* Description list styles */
+
+      dd, dt {
+        line-height: 1.5;
+      }
+
+      dt {
+        font-weight: bold;
+
+      }
+
